@@ -1,0 +1,8 @@
+interpolate strain:
+
+- funcion que dé para un ángulo phi, el intervalo en el que quedaría el punto. Entre qué nudos y en la arista de qué elementos. Cuán cerca de cada nundo (0,1)
+- función parecida a "calculate_element_strain" donde se calcule la deformación para el punto basado en los dos elementos adyacentes.
+	- JEM tendría las coordenadas en locales del punto
+	- el bucle for se transformaría en una sola evaluacion
+	- se obtendría la deformación del punto
+- función que cambie de base el tensor en función de delta y el ángulo de cono (por ejemplo)
