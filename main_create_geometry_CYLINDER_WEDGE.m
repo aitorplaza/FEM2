@@ -32,9 +32,9 @@ nr=floor(R/element_size)-1;
 nx=nx+mod(nx,2);
 nt=nt+mod(nt,2);
 
-%  nx=20;
-%  nt=20;
-%  nr=10;
+%  %  nx=20;
+%  %  nt=20;
+%  %  nr=10;
 [nx,nt,nr]
 
 r=R/(nr+1);
