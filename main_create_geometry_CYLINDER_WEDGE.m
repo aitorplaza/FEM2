@@ -9,8 +9,6 @@ addpath('./lib/');
 %  --------------------------------------------------------------------------------------------------
 %  --------------------------------------------------------------------------------------------------
 
-%  for iii=1:6
-%  for iii=2:2
 
 %  length in the X direction (plate part)
 Lx=2;
@@ -29,14 +27,14 @@ element_size=0.07;
 %  number of elements in each dimension
 nx=floor(Lx/element_size);
 nt=floor(2*pi*R/element_size);
-nr=floor((R-r)/element_size);
+nr=floor(R/element_size)-1;
 
 nx=nx+mod(nx,2);
 nt=nt+mod(nt,2);
 
-nx=20;
-nt=20;
-nr=10;
+%  nx=20;
+%  nt=20;
+%  nr=10;
 [nx,nt,nr]
 
 r=R/(nr+1);
