@@ -87,8 +87,8 @@ fprintf('Applying forces ...\t\t'),pause(0.1),tic
 
 force_nodes=1:(nt)*(nr+1);
 
-%  for iii=1:6
-for iii=2:2
+for iii=1:6
+%  for iii=2:2
 
 switch iii
 	case 1
@@ -445,4 +445,4 @@ figure,plot_scalar(node_matrix+displacement_matrix,tetra_matrix,node_vonmisses_s
 %  plot(theta,node_epsilon_xy2,'g--')
 %  plot(t,tau_xy_inerp,'b')
 %  
-%  fprintf('%d',floor(toc)),fprintf(' seconds.\n');
+fprintf('%d',floor(toc)),fprintf(' seconds.\n');
