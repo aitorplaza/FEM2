@@ -196,7 +196,7 @@ fprintf('%d',floor(toc)),fprintf(' seconds.\n');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 fprintf('Calculating Strains ...\t\t'),pause(0.1),tic
 
-%  node_strain_matrix=calculate_node_strain_matrix(node_matrix,element_matrix,displacement_matrix);
+node_strain_matrix=calculate_node_strain_matrix(node_matrix,element_matrix,displacement_matrix);
 
 fprintf('%d',floor(toc)),fprintf(' seconds.\n');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

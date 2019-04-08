@@ -33,9 +33,9 @@ nr=floor((R-r)/element_size);
 nx=nx+mod(nx,2);
 nt=nt+mod(nt,2);
 
-nx=40;
-nt=40;
-nr=20;
+nx=20;
+nt=20;
+nr=10;
 [nx,nt,nr]
 
 %  nx=6;
