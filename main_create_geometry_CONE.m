@@ -370,7 +370,7 @@ fprintf('%d',floor(toc)),fprintf(' seconds.\n');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Plotting Results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-fprintf('Plotting results ...\t'),pause(0.1),tic
+fprintf('Plotting results ...\t\t'),pause(0.1),tic
 %  
 figure,plot_scalar(node_matrix+displacement_matrix,tetra_matrix,node_vonmisses_stress_vector),	title('von Mises Stress');
 %  %  figure,plot_tensorial(node_matrix+displacement_matrix,tetra_matrix,node_stress_matrix,1,10^-2)
